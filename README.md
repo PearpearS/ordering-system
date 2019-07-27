@@ -9,7 +9,7 @@
 Please use `require("history").createHashHistory` instead of `require("history/createHashHistory")`. Support for the latter will be removed in the next major release. 报错
 处理方式： https://blog.csdn.net/qq_43201542/article/details/91489764
 
-![image](https://github.com/PearpearS/ordering-system/blob/master/1.gif)
-![image'(https://github.com/PearpearS/ordering-system/blob/master/2.gif)
+![image](https://github.com/PearpearS/ordering-system/blob/master/1.gif) 
+![image](https://github.com/PearpearS/ordering-system/blob/master/2.gif) 
 
 
