@@ -1,0 +1,30 @@
+.layout {
+  .header {
+    height: 48px;
+    background:#fff;
+  }
+  .content {
+    padding:15px 50px;
+    background: #fff;
+  }
+}
+
+:global {
+  .menus-table {
+    margin-right: 30px;
+    &.cart {
+      margin-right: 0;
+    }
+    table {
+      tr {
+        th {
+          background: none;
+        }
+        th,td {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
+

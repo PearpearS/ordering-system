@@ -1,0 +1,26 @@
+$red: red;
+.admin {
+  .left {
+    padding-right: 50px;
+  }
+  .right {
+    .del-btn {
+      height: 20px;
+      padding: 0 5px;
+      color: $red;
+      border: 1px solid $red;
+      &:hover,
+      &:active,
+      &:focus {
+        border-color: $red;
+      }
+      span {
+        display: inline;
+      }
+    }
+  }
+}
+
+.btn-w-p100 {
+  width: 100%;
+}

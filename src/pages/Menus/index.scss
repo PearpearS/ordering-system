@@ -1,0 +1,34 @@
+.add-btn {
+  padding: 0 5px;
+  height: 26px;
+  color: green;
+}
+
+.cart-btn {
+  padding: 0 5px;
+  margin-right: 5px;
+  height: 26px;
+  color: green;
+  border: none;
+  background:none;
+  color: #333;
+  &:hover,
+  &:active,
+  &:focus {
+    border: none;
+    background: none;
+    color: #000;
+  }
+  &:last-of-type {
+    margin: 0 0 0 5px;
+  }
+}
+
+.total-price {
+  margin-top: 10px;
+}
+
+.submit-btn {
+  width: 100%;
+}
+
